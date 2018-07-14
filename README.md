@@ -14,14 +14,15 @@ Summary: Use requests to talk HTTP via a UNIX domain socket
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/requests-unixsocket-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/requests-unixsocket-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/requests-unixsocket-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/requests-unixsocket-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/requests-unixsocket-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/requests-unixsocket-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/requests-unixsocket-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/requests-unixsocket-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/requests-unixsocket/badges/version.svg)](https://anaconda.org/conda-forge/requests-unixsocket)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/requests-unixsocket/badges/downloads.svg)](https://anaconda.org/conda-forge/requests-unixsocket)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-requests--unixsocket-green.svg)](https://anaconda.org/conda-forge/requests-unixsocket) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/requests-unixsocket.svg)](https://anaconda.org/conda-forge/requests-unixsocket) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/requests-unixsocket.svg)](https://anaconda.org/conda-forge/requests-unixsocket) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/requests-unixsocket.svg)](https://anaconda.org/conda-forge/requests-unixsocket) |
 
 Installing requests-unixsocket
 ==============================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
