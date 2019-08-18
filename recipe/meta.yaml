@@ -25,8 +25,8 @@ requirements:
 
   run:
     - python
-    - requests >=2.12,<3
-    - urllib3 >=1.16,<2
+    - requests >=1.11,<3
+    - urllib3 >=1.8,<2
 
 test:
   imports:
