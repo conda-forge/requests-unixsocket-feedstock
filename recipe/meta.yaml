@@ -1,6 +1,6 @@
 {% set name = "requests-unixsocket" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "9e5c1a20afc3cf786197ae59c79bcdb0e7565f218f27df5f891307ee8817c1ea" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "28304283ea9357d45fff58ad5b11e47708cfbf5806817aa59b2a363228ee971e" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: Apache 2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: 'Use requests to talk HTTP via a UNIX domain socket'
+  summary: Use requests to talk HTTP via a UNIX domain socket
 
 extra:
   recipe-maintainers:
